@@ -4,14 +4,10 @@ __pycache__/
 *$py.class
 
 # Virtual environment
-.env/
-.venv/
-env/
-venv/
+
+myvenv/
 ENV/
 .Python
-pip-log.txt
-pip-delete-this-directory.txt
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
