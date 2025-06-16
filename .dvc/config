@@ -1,0 +1,4 @@
+[core]
+    remote = localstorage
+['remote "localstorage"']
+    url = /home/ablex/dvc-storage/insurance-risk-project
