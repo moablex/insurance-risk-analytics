@@ -45,7 +45,7 @@ htmlcov/
 
 
 # Data files 
-data/
+#data/
 # Secrets 
 secrets.json
 *.env
