@@ -8,7 +8,9 @@ This project is a data analytics challenge thatfocused on analyzing car insuranc
 ├── .github/
 ├── data/
 │ ├── raw/
+| | └── .gitignore
 │ │ └── MachineLearningRating_v3.csv
+    └── MachineLearningRating_v3.csv.csv
 │ └── processed/
 ├── notebooks/
 │ └── 01_data_understanding.ipynb
@@ -30,6 +32,33 @@ This project is a data analytics challenge thatfocused on analyzing car insuranc
 - Loss Ratio computation
 - Outlier detection
 - visualizations
+
+### ✅ Task 2: Data Understanding & EDA
+
+- Installed and initialized [DVC]
+- Created local remote storage: `~/dvc-storage/insurance-risk-project`
+- Added raw data to version control using:
+  ```bash
+  dvc add data/raw/MachineLearningRating_v3.csv
+  ```
+
+* Committed .dvc file to Git and pushed data to local storage:
+
+```bash
+dvc push
+```
+
+## Reproducing the Project
+
+```bash
+dvc pull
+```
+
+## To run EDA notebooks:
+
+```bash
+jupyter notebook notebooks/01_data_understanding.ipynb
+```
 
 ### 🔄 Future Tasks
 
