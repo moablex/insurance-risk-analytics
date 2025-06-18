@@ -59,3 +59,6 @@ reports/*.tmp.*
 build/
 dist/
 *.bak
+# DVC files
+.dvc/cache/
+.dvc/tmp/
