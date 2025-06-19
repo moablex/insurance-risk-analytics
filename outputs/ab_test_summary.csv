@@ -1,0 +1,5 @@
+Hypothesis,p-value,Reject H0
+No risk difference across provinces,5.662704557855501e-14,True
+No risk difference between zip codes,0.05245247951876464,False
+No margin difference between zip codes,0.24446241842452016,False
+No risk difference between Women and Men,0.8404941485359676,False
